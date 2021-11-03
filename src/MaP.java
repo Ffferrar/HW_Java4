@@ -44,7 +44,7 @@ public class MaP {
         name.put("Prach", "Vlad"); //
         name.put("Bryantsev", "Vsevolod");
         name.put("Bryantev", "Vlad"); //
-        name.put("Antova", "Sveta");
+        name.put("Antonoova", "Sveta");
         name.put("Antonova", "Nika");
         name.put("Malina", "Sonya");
         name.put("Kozhanov", "Gleb");
