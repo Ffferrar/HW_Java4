@@ -21,8 +21,6 @@ public class MaP {
                 //map.remove(previously_key, map.get(previously_key));
                 removeItemFromMapByValue(map, (String) key);
                 removeItemFromMapByValue(map, previously_key);
-                //map.remove(key);
-                //map.remove(previously_key);
             }
             else {
                 previously_value = map.get(key);
