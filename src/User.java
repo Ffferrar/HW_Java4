@@ -1,9 +1,9 @@
 import java.util.Map;
 
 public class User {
-    private String name;
-    private String surname;
-    private Integer age;
+    public String name;
+    public String surname;
+    public Integer age;
 
     public User (String name, String surname, Integer age){
         this.name = name;
@@ -22,5 +22,8 @@ public class User {
     public String getName() {
         return name;
     }
-
+    @Override
+    public String toString() {
+        return this.name + " " + this.surname;
+    }
 }
