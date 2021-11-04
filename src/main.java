@@ -48,6 +48,9 @@ public class main {
     }
 
     public static void printUserMap(Map<Integer, ArrayList<User>> map, Integer age) {
-        map.forEach((k,v) -> System.out.println(k + " - " + v));
+        System.out.println(age + " y.o. :");
+        for (User i : map.get(age)) {
+            System.out.println(i.toString());
+        }
     }
 }
